@@ -1,7 +1,18 @@
 .ImgFundo{
    background-image: url('img/HomepageBG1.webp');
    background-repeat: no-repeat;
-   background-size: 2600px 1000px;
+   background-size: 2600px 2200px;
+}
+
+/*Header*/
+.header{
+   margin: 0 auto;
+   margin-bottom: 20px;
+   display: flex;
+   background-color: #C0C0C0;
+   border: 3px solid #dadada;
+   padding: 10px;
+   box-shadow: 5px 5px #888888;
 }
 
 /*Titulo*/
@@ -16,7 +27,7 @@
    box-shadow: 5px 5px #888888;
 }
 
-.DivFlex1 h1{
+.DivFlex1 h2{
    display: block;
    margin-left: auto;
    margin-right: 20px;
@@ -32,7 +43,7 @@
 /*Audio*/
 audio{
    position: absolute;
-   top: 50px;
+   top: 130px;
    left: 0;
    right: 0;
    bottom: 0;
@@ -54,26 +65,95 @@ audio{
    100% { background-color: rgb(255, 0, 0); }
 }
 
-.DivFlex2{
+/*Volume e prisma*/
+.divVolPri{
+   margin: 0 auto;
    display: flex;
-   justify-content: space-around;
-}
-
-.divVolume{
    background-color: #C0C0C0;
-   width: 35%;
-   height: 35%;
+   width: 90%;
    border: 3px solid #dadada;
    padding: 10px;
    box-shadow: 5px 5px #888888;
 }
 
-.divPrisma{
-   position: relative;
+.divVolGif{
+   display: flex;
+   justify-content: center;
+}
+
+.quadrado{
+   width: 300px;
+   height: 200px;
+}
+
+/*Cone*/
+.divCone{
+   margin: 0 auto;
+   margin-top: 40px;
    background-color: #C0C0C0;
-   width: 35%;
+   width: 90%;
    border: 3px solid #dadada;
    padding: 10px;
    box-shadow: 5px 5px #888888;
 }
 
+.divCone h1{
+   text-align: center;
+}
+
+.listinhaFlex{
+   display: flex;
+}
+
+.divConeGif{
+   display: flex;
+   justify-content: center;
+}
+
+.coninho{
+   width: 450px;
+   height: 250px;
+}
+
+/*Pirâmide*/
+.divPira{
+   margin: 0 auto;
+   margin-top: 40px;
+   margin-bottom: 20px;
+   background-color: #C0C0C0;
+   width: 70%;
+   border: 3px solid #dadada;
+   padding: 10px;
+   box-shadow: 5px 5px #888888;
+}
+
+.listinhaPira{
+   display: flex;
+   justify-content: center;
+}
+
+.divPira h1{
+   text-align: center;
+}
+
+.divPiraGif{
+   display: flex;
+   justify-content: center;
+}
+
+.pirazinha{
+   width: 450px;
+   height: 350px;
+}
+
+/*Footer*/
+.footerTop{
+   display: flex;
+   background-color: #7e7e7e;
+   border: 3px solid #929292;
+   padding: 10px;
+}
+
+.footerCentro{
+   text-align: center;
+}
