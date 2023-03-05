@@ -6,25 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geometria</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="styles.css">
+    <script src="script/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
     <link rel="stylesheet" href="https://unpkg.com/98.css">
 </head>
 
 <body class="ImgFundo">
 
+    <!--Header-->
     <header class="header">
-        <nav class="navbar navbar-expand-lg py-3">
-            <div class="container"><a href="#" class="navbar-brand text-uppercase font-weight-bold">Resumo de geometria</a>
-                <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
-                
-                <div id="navbarSupportedContent" class="collapse navbar-collapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a href="#VolEPris" class="nav-link text-uppercase font-weight-bold">Volume e prisma</a></li>
-                        <li class="nav-item"><a href="#CONE" class="nav-link text-uppercase font-weight-bold">Cone</a></li>
-                        <li class="nav-item"><a href="#PIRA" class="nav-link text-uppercase font-weight-bold">Pirâmide</a></li>
-                    </ul>
-                </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand text-uppercase font-weight-bold" href="#">Resumo de geometria</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#VolEPris" class="nav-link text-uppercase font-weight-bold">Volume e prisma</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#CONE" class="nav-link text-uppercase font-weight-bold">Cone</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#PIRA" class="nav-link text-uppercase font-weight-bold">Pirâmide</a>
+                    </li>
+                </ul>
+              </div>
             </div>
         </nav>
     </header>
@@ -37,7 +47,7 @@
 
     <!-- Musica de fundo -->
     <div class="MusicaDefundo">
-        <audio controls autoplay>
+        <audio controls>
             <source id="audio" src="audio/backroomMusic.mp3">
         </audio>
     </div>
@@ -54,7 +64,7 @@
             <ul>
                 <li>Medida do espaço ocupado por um sólido.</li><br>
 
-                <li>Se um sólido X é a reunião de dois sólidos X1 e X2, então o volume de X é a soma dos volumes de X1 e X2.</li>
+                <li>Se um sólido X é a reunião de dois sólidos X1 e X2, então o volume de X é a soma dos volumes de X1 e X2.</li>
             </ul>
 
             <div class="divVolGif">
@@ -106,9 +116,9 @@
             </div>
            
             <div class="divConeGif">
-                <h3>Fórmula: V = Ab·h/3</h3>
-
                 <img src="img/Cone.gif" alt="coni" class="coninho">
+
+                <h3>Fórmula: V = Ab·h/3</h3>
             </div>
             
         </div>
@@ -133,9 +143,9 @@
         </div>
        
         <div class="divPiraGif">
-            <h3>Fórmula: V = Ab·h/3</h3>
-
             <img src="img/Piramide.webp" alt="coni" class="pirazinha">
+
+            <h5>Fórmula: V = Ab·h/3</h5>
         </div>
     </div>
 </div>

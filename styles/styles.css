@@ -1,0 +1,389 @@
+.ImgFundo{
+   background-image: url('../img/HomepageBG1.webp');
+   background-repeat: no-repeat;
+   background-size: 2600px 2600px;
+}
+
+/*Header*/
+/*Header para celular*/
+@media only screen and (min-width: 320px) {
+   .header{
+      margin-bottom: 20px;
+      display: flex;
+      background-color: #C0C0C0;
+      border: 3px solid #dadada;
+      box-shadow: 5px 5px #888888;
+      width: 368px;
+   }
+}
+
+/*Header para tablets*/
+@media only screen and (min-width: 481px) {
+   .header{
+      margin-top: 4px;
+      margin-left: 0px;
+      margin-bottom: 20px;
+      display: flex;
+      background-color: #C0C0C0;
+      border: 3px solid #dadada;
+      box-shadow: 5px 5px #888888;
+      width: 368px;
+   }
+}
+
+/*Header para telas wide*/
+@media only screen and (min-width: 1201px) {
+   .header{
+      margin: 0 auto;
+      margin-top: 5px;
+      margin-bottom: 20px;
+      background-color: #C0C0C0;
+      padding-left: 1000px;
+      border: 3px solid #dadada;
+      box-shadow: 5px 5px #888888;
+      width: 2400px;
+   }
+
+
+}
+
+
+/*Titulo*/
+
+/*Titulo para celular*/
+@media only screen and (min-width: 320px) {
+   .DivFlex1{
+      background-color: #C0C0C0;
+      text-align: center;
+      margin: auto;
+      width: 80%;
+      border: 3px solid #dadada;
+      padding: 10px;
+      display: flex;
+      box-shadow: 5px 5px #888888;
+   }
+   
+   .DivFlex1 h2{
+      margin-left: auto;
+      margin-right: 20px;
+   }
+   
+   .DivFlex1 img{
+      width: 50px;
+      height: 50px;
+      margin-right: auto;
+      
+   }
+}
+
+/*Titulo para wide screen*/
+@media only screen and (min-width: 1201px) {
+   .DivFlex1{
+      background-color: #C0C0C0;
+      text-align: center;
+      margin: auto;
+      width:600px;
+      border: 3px solid #dadada;
+      padding: 10px;
+      display: flex;
+      box-shadow: 5px 5px #888888;
+   }
+   
+   .DivFlex1 h2{
+      margin-top: 45px;
+      margin-left: auto;
+      margin-right: 20px;
+   }
+   
+   .DivFlex1 img{
+      margin-left: 60px;
+      width: 150px;
+      height: 150px;
+      display: block;
+   }
+}
+
+
+/*Audio*/
+/*Audio para celular*/
+@media only screen and (max-width: 400px) {
+   audio{
+      position: absolute;
+      margin-top: -55px;
+      margin-left: -25px;
+      width: 84px;
+      height: 30px;
+      transform: rotate(90deg);
+   }
+}
+
+/*Audio para notebooks e monitores normais*/
+@media only screen and (min-width: 1024px) {
+   audio{
+      position: absolute;
+      top: 130px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+   }
+}
+
+/*Audio para notebooks e monitores normais*/
+@media only screen and (min-width: 1200px) {
+   audio{
+      position: absolute;
+      top: 130px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+   }
+}
+
+
+/*Linha Multicolorida*/
+.linhazonaCOR{
+   border: solid 1px #d1d1d1;
+   margin: 0 auto;
+   width: 95%;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+   0% { background-color: purple; }
+   20% { background-color: rgb(81, 255, 0); }
+   40% { background-color: rgb(0, 0, 255); }
+   60% { background-color: rgb(255, 0, 255); }
+   80% { background-color: rgb(229, 255, 0); }
+   100% { background-color: rgb(255, 0, 0); }
+}
+
+/*Volume e prisma*/
+
+/*Volume e prisma para celular*/
+@media only screen and (min-width: 320px){
+   .divVolPri{
+      margin: 0 auto;
+      background-color: #C0C0C0;
+      width: 90%;
+      border: 3px solid #dadada;
+      padding: 15px;
+      box-shadow: 5px 5px #888888;
+   }
+   
+   .divVolGif{
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      width: 150px;
+      height: 150px;
+   }
+   
+}
+
+/*Volume e prisma para telas wide*/
+@media only screen and (min-width: 1201px){
+   .divVolPri{
+      margin: 0 auto;
+      display: flex;
+      background-color: #C0C0C0;
+      width: 1000px;
+      border: 3px solid #dadada;
+      padding: 15px;
+      padding-left: 100px;
+      box-shadow: 5px 5px #888888;
+   }
+   
+   .divVolPri h3{
+      margin-top: 50px;
+   }
+
+   .divVolGif{
+      display: flex;
+      justify-content: center;
+      width: 250px;
+      height: 250px;
+   }
+}
+
+
+
+/*Cone*/
+
+/*Cone para celular*/
+@media only screen and (min-width: 320px){
+   .divCone{
+      margin: 0 auto;
+      margin-top: 40px;
+      background-color: #C0C0C0;
+      width: 90%;
+      height: 785px;
+      border: 3px solid #dadada;
+      padding: 10px;
+      box-shadow: 5px 5px #888888;
+   }
+   
+   .divCone h1{
+      text-align: center;
+   }
+   
+   .listinhaFlex{
+      display: flex;
+   }
+
+   .divConeGif{
+      display: grid;
+      justify-content: center;
+      margin: 0 auto;
+   }
+
+   .divConeGif img{
+      width: 300px;
+      height: 250px;
+   }
+
+   .divConeGif h3{
+      margin-top: 15px;
+      margin-left: 6px;
+   }
+   
+}
+
+/*Cone para telas wide*/
+@media only screen and (min-width: 1201px){
+   .divCone{
+      margin: 0 auto;
+      margin-top: 40px;
+      background-color: #C0C0C0;
+      width: 1000px;
+      height: 485px;
+      border: 3px solid #dadada;
+      padding: 10px;
+      box-shadow: 5px 5px #888888;
+   }
+   
+   .divCone h1{
+      text-align: center;
+   }
+   
+   .listinhaFlex{
+      display: flex;
+   }
+   
+   .divConeGif{
+      display: flex;
+      justify-content: center;
+      margin-top: -20px;
+   }
+
+   .divConeGif img{
+      width: 300px;
+      height: 250px;
+   }
+
+   .divConeGif h3{
+      margin-top: 100px;
+      margin-left: 50px;
+   }
+   
+}
+
+
+/*Pirâmide*/
+
+/*Pirâmide para celular*/
+@media only screen and (min-width: 320px){
+   .divPira{
+      margin: 0 auto;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      background-color: #C0C0C0;
+      width: 90%;
+      height: 525px;
+      border: 3px solid #dadada;
+      padding: 10px;
+      box-shadow: 5px 5px #888888;
+   }
+   
+   .listinhaPira{
+      display: flex;
+   }
+   
+   .divPira h1{
+      text-align: center;
+   }
+   
+   .divPiraGif{
+      display: grid;
+      justify-content: center;
+      margin: 0 auto;
+      margin-top: -20px;
+      width: 150px;
+      height: 150px;
+   }
+
+   .divPiraGif img{
+      width: 200px;
+      height: 150px;
+   }
+
+   .divPiraGif h5{
+      margin-top: 20px;
+      margin-left: 7px;
+   }
+   
+}
+
+/*Pirâmide para telas wide*/
+@media only screen and (min-width: 1201px){
+   .divPira{
+      margin: 0 auto;
+      height: 490px;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      background-color: #C0C0C0;
+      width: 1000px;
+      border: 3px solid #dadada;
+      padding: 10px;
+      box-shadow: 5px 5px #888888;
+   }
+   
+   .listinhaPira{
+      display: flex;
+      justify-content: center;
+   }
+   
+   .divPira h1{
+      text-align: center;
+   }
+   
+   .divPiraGif{
+      display: flex;
+      justify-content: center;
+   }
+   
+   .divPiraGif img{
+      width: 300px;
+      height: 250px;
+      margin-right: 200px;
+      margin-left: -50px;
+   }
+
+   .divPiraGif h5{
+      margin-top: 20px;
+      margin-left: 7px;
+   }
+}
+
+/*Footer*/
+.footerTop{
+   display: flex;
+   background-color: #7e7e7e;
+   border: 3px solid #929292;
+   padding: 10px;
+}
+
+.footerCentro{
+   text-align: center;
+}
