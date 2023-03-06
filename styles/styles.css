@@ -62,8 +62,22 @@
    }
 }
 
-/*Header para telas wide*/
+/*Header para telas um pouco maiores*/
 @media only screen and (min-width: 1201px) {
+   .header{
+      margin: 0 auto;
+      margin-top: 5px;
+      margin-bottom: 20px;
+      background-color: #C0C0C0;
+      padding-left: 130px;
+      border: 3px solid #dadada;
+      box-shadow: 5px 5px #888888;
+      width: 800px;
+   }
+}
+
+/*Header para telas wide*/
+@media only screen and (min-width: 1401px) {
    .header{
       margin: 0 auto;
       margin-top: 5px;
@@ -74,8 +88,6 @@
       box-shadow: 5px 5px #888888;
       width: 2400px;
    }
-
-
 }
 
 
@@ -161,7 +173,7 @@
    }
 }
 
-/*Titulo para wide screen*/
+/*Titulo para telas um pouco maiores*/
 @media only screen and (min-width: 1201px) {
    .DivFlex1{
       background-color: #C0C0C0;
@@ -224,8 +236,6 @@
       position: absolute;
       margin-top: -160px;
       margin-left: 50px;
-      width: 84px;
-      height: 30px;
       transform: rotate(0deg);
    }
 }
@@ -234,10 +244,17 @@
 @media only screen and (min-width: 1200px) {
    audio{
       position: absolute;
-      top: 130px;
-      left: 0;
-      right: 0;
-      bottom: 0;
+      margin-top: -240px;
+      margin-left: 50px;
+   }
+}
+
+/*Audio para  W I D E*/
+@media only screen and (min-width: 1200px) {
+   audio{
+      margin-top: -230px;
+      margin-left: -10px;
+      transform: rotate(90deg);
    }
 }
 
@@ -305,7 +322,7 @@
    
 }
 
-/*Volume e prisma para telas wide*/
+/*Volume e prisma para telas um pouco maiores*/
 @media only screen and (min-width: 1201px){
    .divVolPri{
       margin: 0 auto;
@@ -451,7 +468,7 @@
    
 }
 
-/*Cone para telas wide*/
+/*Cone para telas um pouco maiores*/
 @media only screen and (min-width: 1201px){
    .divCone{
       margin: 0 auto;
@@ -620,7 +637,7 @@
    }
 }
 
-/*Pirâmide para telas wide*/
+/*Pirâmide para telas um pouco maiores*/
 @media only screen and (min-width: 1201px){
    .divPira{
       margin: 0 auto;
