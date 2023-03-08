@@ -1,7 +1,48 @@
+/*Fonte*/
+@font-face {
+   font-family: EstilinhoPixel;
+   src: url(../font/VT323-Regular.ttf)
+ }
+
+/*Scrollbar foda*/
+::-webkit-scrollbar {
+   height: 50px;
+ }
+
+*{
+   cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAVCAYAAAByrA+0AAAACXBIWXMAAAsSAAALEgHS3X78AAAAc0lEQVQ4jZXR2w7AIAgD0EL2/7/MHoaGiUIlWXbrsS4DAMPFqJ9ppABgZjQaDTTSeMMgXR90KIEObUGFjuCESrBDLVjRUwVFJNnUsAlJPLQJp5nAw/JdStr7D4Qw3bCGjy3KrjxXat6bN8xtUz/udgzhG16mFjUWQpMUoQAAAABJRU5ErkJggg==),auto;
+
+   font-family: 'EstilinhoPixel';
+}
+
 .ImgFundo{
    background-image: url('../img/HomepageBG1.webp');
    background-repeat: no-repeat;
    background-size: 2600px 2600px;
+}
+
+/*Detalhe bunitinho*/
+/*Detalhe bunitinho para celular*/
+@media only screen and (min-width: 320px) {
+   .detJanela{
+      position: fixed;
+      top: 0px;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      height: 20px;
+      color: white;
+      background: linear-gradient(to right,navy 0,#1084d0 100%);
+      box-shadow: 1px 1.5px black;
+   }
+
+   .detJanela h6{
+      margin-left: 30px;
+   }
+
+   .butaoJane button{
+      size: 0px;
+   }
 }
 
 /*Header*/
@@ -9,6 +50,7 @@
 @media only screen and (min-width: 320px) {
    .header{
       margin-bottom: 20px;
+      margin-top: 20px;
       display: flex;
       background-color: #C0C0C0;
       border: 3px solid #dadada;
@@ -205,10 +247,9 @@
 /*Audio para celular*/
 @media only screen and (min-width: 320px) {
    audio{
-      position: absolute;
       margin-top: -55px;
       margin-left: -25px;
-      width: 84px;
+      width: 80px;
       height: 30px;
       transform: rotate(90deg);
    }
@@ -221,11 +262,9 @@
 /*Audio para tablets*/
 @media only screen and (min-width: 481px) {
    audio{
-      position: absolute;
+      position: relative;
       margin-top: -65px;
       margin-left: 10px;
-      width: 84px;
-      height: 30px;
       transform: rotate(90deg);
    }
 }
@@ -233,7 +272,6 @@
 /*Audio para Laptops e telas pequenas*/
 @media only screen and (min-width: 769px) {
    audio{
-      position: absolute;
       margin-top: -160px;
       margin-left: 50px;
       transform: rotate(0deg);
@@ -241,22 +279,32 @@
 }
 
 /*Audio para notebooks e monitores normais*/
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
    audio{
-      position: absolute;
       margin-top: -240px;
       margin-left: 50px;
+      transform: rotate(90deg);
    }
 }
 
 /*Audio para  W I D E*/
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1201px) {
+   audio{
+      margin-top: -240px;
+      margin-left: 40px;
+      transform: rotate(90deg);
+   }
+}
+
+/*Audio para  W I D E*/
+@media only screen and (min-width: 1401px) {
    audio{
       margin-top: -230px;
       margin-left: -10px;
       transform: rotate(90deg);
    }
 }
+
 
 
 /*Linha Multicolorida*/
